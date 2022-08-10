@@ -20,6 +20,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor systemBackgroundColor];
     [self createButton];
+    [self configureNavigation];
 }
 
 - (void)createButton {
@@ -37,10 +38,14 @@
     [button.leadingAnchor constraintEqualToAnchor: self.view.leadingAnchor constant:0.0].active = YES;
 }
 
+- (void)configureNavigation {
+    self.navigationItem.title = @"MainViewController";
+}
+
 - (void)didTapButtonAction {
     NSLog(@"didTapButtonAction");
     UIViewController *nextViewController = [[NextViewController alloc] init];
-    [self presentViewController:nextViewController animated:true completion:nil];
+    [self.navigationController pushViewController:nextViewController animated: YES];
 }
 
 @end
