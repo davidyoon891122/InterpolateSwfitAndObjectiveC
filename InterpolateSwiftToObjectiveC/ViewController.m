@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "InterpolateSwiftToObjectiveC-Swift.h"
 
 @interface ViewController ()
 
@@ -38,7 +39,8 @@
 
 - (void)didTapButtonAction {
     NSLog(@"didTapButtonAction");
+    UIViewController *nextViewController = [[NextViewController alloc] init];
+    [self presentViewController:nextViewController animated:true completion:nil];
 }
-
 
 @end
