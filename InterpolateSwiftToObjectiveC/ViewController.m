@@ -17,7 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor systemBackgroundColor];
     [self createButton];
 }
@@ -35,7 +34,6 @@
 
     [button.topAnchor constraintEqualToAnchor: self.view.safeAreaLayoutGuide.topAnchor constant: 0.0].active = YES;
     [button.leadingAnchor constraintEqualToAnchor: self.view.leadingAnchor constant:0.0].active = YES;
-//    [button.widthAnchor constraintEqualToConstant:].active = YES;
 }
 
 - (void)didTapButtonAction {
