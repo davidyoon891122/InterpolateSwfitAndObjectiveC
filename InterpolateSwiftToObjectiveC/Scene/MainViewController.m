@@ -5,14 +5,14 @@
 //  Created by iMac on 2022/08/10.
 //
 
-#import "ViewController.h"
+#import "MainViewController.h"
 #import "InterpolateSwiftToObjectiveC-Swift.h"
 
-@interface ViewController ()
+@interface MainViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MainViewController
 
 
 
