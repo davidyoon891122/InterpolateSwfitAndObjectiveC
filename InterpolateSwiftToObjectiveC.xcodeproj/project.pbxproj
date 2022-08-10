@@ -16,6 +16,7 @@
 		ADB59D3528A33C7D0027F57F /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB59D3428A33C7D0027F57F /* NextViewController.swift */; };
 		ADB59D3728A33E490027F57F /* PrintTools.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB59D3628A33E490027F57F /* PrintTools.m */; };
 		ADB59D3B28A367BE0027F57F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = ADB59D3A28A367BE0027F57F /* SnapKit */; };
+		ADB59D4128A382D80027F57F /* DateTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB59D4028A382D80027F57F /* DateTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		ADB59D3428A33C7D0027F57F /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		ADB59D3628A33E490027F57F /* PrintTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintTools.m; sourceTree = "<group>"; };
 		ADB59D3828A340B60027F57F /* PrintTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintTools.h; sourceTree = "<group>"; };
+		ADB59D4028A382D80027F57F /* DateTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			children = (
 				ADB59D3628A33E490027F57F /* PrintTools.m */,
 				ADB59D3828A340B60027F57F /* PrintTools.h */,
+				ADB59D4028A382D80027F57F /* DateTool.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				ADB59D2228A322190027F57F /* MainViewController.m in Sources */,
 				ADB59D1C28A322190027F57F /* AppDelegate.m in Sources */,
 				ADB59D2D28A3221B0027F57F /* main.m in Sources */,
+				ADB59D4128A382D80027F57F /* DateTool.swift in Sources */,
 				ADB59D1F28A322190027F57F /* SceneDelegate.m in Sources */,
 				ADB59D3728A33E490027F57F /* PrintTools.m in Sources */,
 			);
