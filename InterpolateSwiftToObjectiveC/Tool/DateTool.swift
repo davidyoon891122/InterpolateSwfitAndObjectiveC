@@ -7,7 +7,8 @@
 
 import Foundation
 
-final class DateTool {
+final class DateTool: NSObject {
+    @objc
     func diplayTodayDate() {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy년 MM월 dd일"

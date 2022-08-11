@@ -7,6 +7,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class DateTool;
+
 @interface MainViewController : UIViewController
 
 

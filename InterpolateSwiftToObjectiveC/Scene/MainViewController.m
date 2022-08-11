@@ -82,7 +82,9 @@
 }
 
 - (void)didTapDisplayDateButtonAction {
-    NSLog(@"didDisplayDateButtonAction");
+    DateTool *dateTool = [[DateTool alloc] init];
+    [dateTool diplayTodayDate];
+    
 }
 
 @end
